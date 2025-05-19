@@ -1,0 +1,301 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 20px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background: #008248; 
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    gap: 20px;
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    border: none;
+    background: white;
+    color: #008248;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Large Image Header */
+.popular-header {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Adjust height */
+
+}
+
+.popular-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%); /* Slightly darker image */
+}
+
+/* Text Overlay */
+.popular-text {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: white;
+}
+
+.popular-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6); /* Soft shadow */
+}
+
+.popular-text p {
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 1.5;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6); /* Soft shadow */
+}
+
+/* Recipe Grid */
+.popular-content {
+    padding: 50px 20px;
+}
+
+.recipe-list h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #008248;
+}
+
+.recipe-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.recipe-card {
+    text-align: center;
+}
+
+.recipe-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.recipe-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    background: #008248; 
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    gap: 20px;
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    border: none;
+    background: white;
+    color: #008248;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Footer Styles */
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    margin: 15px;
+    min-width: 250px;
+}
+
+/* Section Titles */
+.footer-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #008248;
+}
+
+/* About Section */
+.footer-section p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Quick Links */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #008248;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background: #111;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #bbb;
+}
